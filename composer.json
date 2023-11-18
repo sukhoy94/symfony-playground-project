@@ -76,6 +76,7 @@
         "post-install-cmd": [
             "@auto-scripts"
         ],
+        "run-phpstan": "vendor/bin/phpstan analyse",
         "post-update-cmd": [
             "@auto-scripts"
         ]
@@ -90,6 +91,7 @@
         }
     },
     "require-dev": {
+        "phpstan/phpstan": "^1.10",
         "phpunit/phpunit": "^9.5",
         "symfony/browser-kit": "6.3.*",
         "symfony/css-selector": "6.3.*",
